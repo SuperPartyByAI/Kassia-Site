@@ -1,0 +1,296 @@
+[dotenv@17.3.1] injecting env (2) from .env.local -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+{
+  "page": {
+    "id": "5000259c-34c1-4046-886a-d6b002375075",
+    "slug": "decoratiuni-baloane-bucuresti",
+    "path": "/decoratiuni-baloane-bucuresti/",
+    "page_type": "service_pillar",
+    "status": "draft",
+    "index_status": "noindex",
+    "include_in_sitemap": false,
+    "title": "Decorațiuni cu Baloane București și Ilfov | Kassia Events",
+    "h1": "Decorațiuni cu baloane în București și Ilfov",
+    "meta_title": "Decorațiuni cu Baloane București și Ilfov | Kassia Events",
+    "meta_description": "Cauți decorațiuni cu baloane în București sau Ilfov? Kassia Events creează arcade, panouri foto și baloane cu heliu pentru botezuri, nunți, aniversări și evenimente corporate.",
+    "canonical_url": null,
+    "parent_page_id": null,
+    "service_type": null,
+    "event_type": null,
+    "location_type": null,
+    "city": null,
+    "sector": null,
+    "neighborhood": null,
+    "priority": 0.5,
+    "created_at": "2026-05-19T16:00:50.166673+00:00",
+    "updated_at": "2026-05-21T09:23:40.645169+00:00",
+    "published_at": null
+  },
+  "sections": [
+    {
+      "id": "1194b8f3-551f-4c1a-97d1-e6b0889427eb",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "content",
+      "heading": "Evenimente pentru care realizăm decoruri",
+      "content": {
+        "body": "<p>Decorurile cu baloane sunt potrivite pentru botezuri, tăieri de moț, nunți, cununii, aniversări, majorate, petreceri pentru copii, evenimente corporate, deschideri de locații și activări de brand.</p><p>Pentru fiecare tip de eveniment, alegem volumul, culorile și elementele potrivite, astfel încât decorul să completeze atmosfera și să ofere un punct vizual puternic pentru fotografii.</p>"
+      },
+      "order_index": 12,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T09:32:15.522922+00:00"
+    },
+    {
+      "id": "910867ee-2597-47f7-b82b-523aca8a48d7",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "content",
+      "heading": "Cum lucrăm",
+      "content": {
+        "body": "<p>Procesul este simplu: ne trimiți data evenimentului, locația, tipul decorului dorit și câteva poze de inspirație. Pe baza acestor detalii, îți propunem o variantă potrivită pentru spațiul tău.</p><p>După confirmare, stabilim detaliile de montaj, intervalul de livrare și eventualele accesorii necesare. În ziua evenimentului, echipa Kassia Events se ocupă de montaj, astfel încât decorul să fie gata la timp.</p>"
+      },
+      "order_index": 13,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T09:32:15.522922+00:00"
+    },
+    {
+      "id": "e37fd985-ae0a-490c-b0c3-9342036b01df",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "content",
+      "heading": "Zone acoperite: București și Ilfov",
+      "content": {
+        "body": "<p>Realizăm decorațiuni cu baloane în București și în zonele apropiate din Ilfov. Ne deplasăm la locații de evenimente, restaurante, saloane, săli private, spații corporate și locuințe.</p><p>Pentru evenimente în afara Bucureștiului, disponibilitatea și transportul se confirmă în funcție de distanță, program și complexitatea decorului.</p>",
+        "cta_url": "https://wa.me/40768098268",
+        "cta_text": "Scrie-ne pe WhatsApp"
+      },
+      "order_index": 14,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T09:32:15.522922+00:00"
+    },
+    {
+      "id": "f5b15cde-ec75-4b47-bc3e-c5a4634731b6",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "content",
+      "heading": "Hai să discutăm despre decorul evenimentului tău",
+      "content": {
+        "body": "<p>Spune-ne ce eveniment pregătești, unde are loc și ce stil de decor îți dorești. Îți răspundem pe WhatsApp cu recomandări clare pentru un decor cu baloane potrivit locației și bugetului tău.</p>",
+        "cta_url": "https://wa.me/40768098268",
+        "cta_text": "Scrie-ne pe WhatsApp"
+      },
+      "order_index": 15,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T09:32:15.522922+00:00"
+    },
+    {
+      "id": "32ce3526-2043-4a54-9d3b-42cd1f8d131a",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "service_card",
+      "heading": "Arcade din baloane",
+      "content": {
+        "cta_url": "/arcada-baloane-bucuresti/",
+        "cta_text": "Vezi detalii",
+        "image_url": "/images/arcade.webp",
+        "is_active": true,
+        "subheading": "Pentru intrări, candy bar, panouri foto și zone de întâmpinare."
+      },
+      "order_index": 3,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T10:19:19.449136+00:00"
+    },
+    {
+      "id": "7f16ad7e-6be0-49fd-8a15-eec863160271",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "service_card",
+      "heading": "Panouri foto",
+      "content": {
+        "cta_url": "/panou-foto-baloane-bucuresti/",
+        "cta_text": "Vezi detalii",
+        "image_url": "/images/contact-intro.png",
+        "is_active": true,
+        "subheading": "Fundaluri foto decorate cu baloane pentru poze memorabile."
+      },
+      "order_index": 5,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T10:19:19.745659+00:00"
+    },
+    {
+      "id": "035da120-a036-46c8-8d1f-7ed1f281ce99",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "service_card",
+      "heading": "Prețuri",
+      "content": {
+        "cta_url": "/preturi-decoratiuni-baloane/",
+        "cta_text": "Vezi detalii",
+        "image_url": "/images/home-pricing.webp",
+        "is_active": true,
+        "subheading": "Vezi cum se calculează costul unui decor cu baloane."
+      },
+      "order_index": 8,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T10:19:20.10011+00:00"
+    },
+    {
+      "id": "f836da6e-0cee-440a-92e5-e195fe99bfbb",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "content",
+      "heading": "De ce să alegi Kassia Events?",
+      "content": {
+        "body": "<p>Un decor cu baloane reușit trebuie să se potrivească locului, temei și momentului. Echipa Kassia Events îți oferă <strong>comunicare rapidă pe WhatsApp</strong>, adaptând fiecare decor în funcție de locație și buget.</p><ul><li>Planificăm <strong>culori și o temă alese împreună</strong> cu tine.</li><li>Asigurăm <strong>montaj la timp</strong> pentru ca totul să fie gata înainte de sosirea invitaților.</li><li>Creăm <strong>decoruri care arată impecabil în poze</strong>, perfecte pentru albumul amintirilor tale.</li></ul>"
+      },
+      "order_index": 2,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T10:19:20.390271+00:00"
+    },
+    {
+      "id": "7adfeeb0-7cb0-433d-9287-d40481e0ca2b",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "hero",
+      "heading": "Decorațiuni cu baloane în București și Ilfov",
+      "content": {
+        "body": "<p>Transformăm evenimentele din București și Ilfov în spații memorabile, cu decoruri din baloane create pentru poze, atmosferă și impact vizual. Realizăm arcade organice, baloane cu heliu, panouri foto și decoruri personalizate pentru botezuri, nunți, aniversări și evenimente corporate.</p>",
+        "cta_url": "https://wa.me/40768098268",
+        "cta_text": "Scrie-ne pe WhatsApp",
+        "image_url": "/images/home-intro.webp"
+      },
+      "order_index": 1,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T09:32:15.522922+00:00"
+    },
+    {
+      "id": "c68dac01-1dd3-485e-9690-3b299aed0e51",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "service_card",
+      "heading": "Baloane cu heliu",
+      "content": {
+        "cta_url": "/baloane-heliu-bucuresti/",
+        "cta_text": "Vezi detalii",
+        "image_url": "/images/heliu.webp",
+        "is_active": true,
+        "subheading": "Buchete, cifre, litere și decoruri plutitoare pentru evenimente."
+      },
+      "order_index": 4,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T10:19:19.625153+00:00"
+    },
+    {
+      "id": "354a665b-4e8d-41ef-8586-884d15c20b65",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "service_card",
+      "heading": "Decor botez",
+      "content": {
+        "cta_url": "/decoratiuni-baloane-botez-bucuresti/",
+        "cta_text": "Vezi detalii",
+        "image_url": "/images/aranjamente.webp",
+        "is_active": true,
+        "subheading": "Decoruri delicate pentru botezuri, tăieri de moț și petreceri de copii."
+      },
+      "order_index": 6,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T10:19:19.872253+00:00"
+    },
+    {
+      "id": "0289a3ca-3f19-4e87-8d78-216dbb6d0e4a",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "service_card",
+      "heading": "Decor nuntă",
+      "content": {
+        "cta_url": "/decoratiuni-baloane-nunta-bucuresti/",
+        "cta_text": "Vezi detalii",
+        "image_url": "/images/home-intro.webp",
+        "is_active": true,
+        "subheading": "Aranjamente elegante pentru cununii, nunți și momente speciale."
+      },
+      "order_index": 7,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T10:19:19.992082+00:00"
+    },
+    {
+      "id": "ed04d0ad-aaf2-4198-9b6f-f362efcb56fb",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "service_card",
+      "heading": "Galerie",
+      "content": {
+        "cta_url": "/galerie/",
+        "cta_text": "Vezi detalii",
+        "image_url": "/images/ghirlande.webp",
+        "is_active": true,
+        "subheading": "Inspiră-te din decoruri, arcade și panouri foto realizate pentru evenimente."
+      },
+      "order_index": 9,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T10:19:20.174929+00:00"
+    },
+    {
+      "id": "4ea8e34d-c86b-4658-93f2-4c0ce193325a",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "service_card",
+      "heading": "Contact",
+      "content": {
+        "cta_url": "/contact/",
+        "cta_text": "Vezi detalii",
+        "image_url": "/images/contact-cta.png",
+        "is_active": true,
+        "subheading": "Scrie-ne rapid pe WhatsApp pentru detalii și disponibilitate."
+      },
+      "order_index": 10,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T10:19:20.254426+00:00"
+    },
+    {
+      "id": "af2ff037-a4aa-4ab9-b984-d44b087c76b7",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "section_type": "content",
+      "heading": "Servicii de decorațiuni cu baloane",
+      "content": {
+        "body": "<p>Kassia Events realizează decoruri complete și personalizate pentru evenimente, oferind soluții variate pentru a transforma orice locație:</p><ul><li><strong>Arcade organice:</strong> perfecte pentru intrări, prezidii sau uși.</li><li><strong>Baloane cu heliu:</strong> buchete elegante, cifre aniversare sau litere voluminoase.</li><li><strong>Panouri foto:</strong> cadre metalice circulare sau dreptunghiulare îmbrăcate spectaculos.</li><li><strong>Buchete de baloane:</strong> aranjamente de masă sau podea.</li><li><strong>Decoruri tematice:</strong> pentru botez, nuntă, majorat și evenimente corporate.</li></ul><p>Fiecare serviciu este adaptat cromaticii, numărului de invitați și specificului locației.</p>"
+      },
+      "order_index": 11,
+      "created_at": "2026-05-21T09:32:15.522922+00:00",
+      "updated_at": "2026-05-21T10:19:20.503865+00:00"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "8c4c1f23-712c-4cf6-91ee-b65d73d5b897",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "question": "Cât timp durează montajul unui decor cu baloane?",
+      "answer": "Timpul de montaj variază între 1 și 3 ore, în funcție de complexitatea și dimensiunea decorului. Discutăm aceste detalii în prealabil pentru a ajunge la locație la momentul oportun.",
+      "order_index": 1,
+      "created_at": "2026-05-21T09:25:13.844376+00:00",
+      "updated_at": "2026-05-21T09:25:13.844376+00:00"
+    },
+    {
+      "id": "a4ba05b9-034d-4cc9-a9b9-d981f07bf33b",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "question": "Puteți adapta decorul după o poză de inspirație?",
+      "answer": "Da. Ne poți trimite poze de inspirație, culori preferate și detalii despre locație, iar noi adaptăm decorul cu baloane în funcție de spațiu, temă și buget.",
+      "order_index": 4,
+      "created_at": "2026-05-21T10:19:20.584461+00:00",
+      "updated_at": "2026-05-21T10:19:20.584461+00:00"
+    },
+    {
+      "id": "e0910731-e271-4982-b7a6-1d12eb42b58d",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "question": "Vă ocupați și de demontarea decorului după eveniment?",
+      "answer": "În general, baloanele rămân la tine! În cazul panourilor foto cu cadru metalic închiriate, stabilim de comun acord ridicarea recuzitei după terminarea petrecerii sau a doua zi.",
+      "order_index": 2,
+      "created_at": "2026-05-21T09:25:13.844376+00:00",
+      "updated_at": "2026-05-21T09:25:13.844376+00:00"
+    },
+    {
+      "id": "3662a3fe-14fa-4c72-a968-8a1119ee1a0a",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "question": "Oferiți decorațiuni și în Ilfov?",
+      "answer": "Da, asigurăm transport și montaj oriunde în București și Ilfov. Costurile de transport se calculează în funcție de distanța exactă până la locație.",
+      "order_index": 3,
+      "created_at": "2026-05-21T09:25:13.844376+00:00",
+      "updated_at": "2026-05-21T09:25:13.844376+00:00"
+    },
+    {
+      "id": "e9af8409-efbe-4282-bd68-91a9a164ac94",
+      "page_id": "5000259c-34c1-4046-886a-d6b002375075",
+      "question": "Cu cât timp înainte trebuie să vă contactez?",
+      "answer": "Recomandăm să ne contactezi cât mai devreme, mai ales pentru weekenduri și perioade aglomerate. Dacă data este apropiată, ne poți scrie pe WhatsApp și verificăm rapid disponibilitatea.",
+      "order_index": 5,
+      "created_at": "2026-05-21T10:19:20.584461+00:00",
+      "updated_at": "2026-05-21T10:19:20.584461+00:00"
+    }
+  ]
+}

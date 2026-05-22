@@ -1,0 +1,131 @@
+              </>
+            ) : (
+              <>
+                {page.meta_description && <p class="hero-subtitle editable-body" contenteditable="true" data-field="body">{page.meta_description}</p>}
+              </>
+            )}
+          </div>
+        </header>
+      );
+    })()}
+
+    {/* SERVICE CARDS GRID */}
+    {sections && sections.filter(s => s.section_type === 'service_card').length > 0 && (
+      <section class="service-cards-section bg-white">
+        <div class="container">
+          <h2 class="section-heading text-center">Alege Serviciul Dorit</h2>
+          <div class="service-cards-grid">
+            {sections.filter(s => s.section_type === 'service_card').map((card) => (
+              <div class="service-card editable-section" data-section-id={card.id}>
+                <div class="service-card-image">
+                  {card.content?.image_url && card.content.image_url.trim() !== '' && (
+                    <img src={card.content.image_url} alt="" onerror="this.style.display='none'" loading="lazy" />
+                  )}
+                  <div class="service-card-overlay"></div>
+                </div>
+                <div class="service-card-content">
+                  <h3 class="service-card-title editable-h3" contenteditable="true" data-field="heading">{card.heading}</h3>
+                  {card.content?.subheading && <p class="service-card-subtitle editable-body" contenteditable="true" data-field="subheading">{card.content.subheading}</p>}
+                  <div class="editable-cta" style="margin-top: 10px;">
+                    <span class="service-card-cta" contenteditable="true" data-field="cta_text">{card.content?.cta_text || 'Vezi Detalii'}</span>
+                    <input type="text" class="cta-url-input" data-field="cta_url" value={card.content?.cta_url || ''} />
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {/* SECTIONS LOOP */}
+    {page.slug === 'preturi-decoratiuni-baloane' ? (
+      <>
+        {sections && sections.filter(s => s.heading === 'Cum se calculează prețul unui decor cu baloane?').map(section => (
+          <section class="content-section bg-light editable-section" data-section-id={section.id} id="cum-se-calculeaza">
+            <div class="container section-grid" style="grid-template-columns: 1fr; max-width: 800px; text-align: center;">
+              <div class="section-text">
+                <div class="section-label">⚙️ Editare Secțiune: {section.section_type}</div>
+                <h2 class="section-heading editable-h2" contenteditable="true" data-field="heading">{section.heading}</h2>
+                {section.content?.body && <div class="section-body editable-body prose" contenteditable="true" data-field="body" set:html={section.content.body} />}
+              </div>
+            </div>
+          </section>
+        ))}
+        <div id="content" class="container" style="padding: 4rem 1rem;">
+          <div class="pricing-details-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+            {sections && sections.filter(s => !['hero', 'gallery', 'faq', 'service_card'].includes(s.section_type) && s.heading !== 'Cum se calculează prețul unui decor cu baloane?').map((section) => (
+              <div class="pricing-detail-card editable-section" data-section-id={section.id} id={section.heading ? 'preturi-' + section.heading.replace('Prețuri ', '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') : undefined} style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; display: flex; flex-direction: column;">
+                <div class="section-label">⚙️ Editare Secțiune: {section.section_type}</div>
+                <h3 class="pricing-card-title editable-h2" contenteditable="true" data-field="heading" style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--primary-dark);">{section.heading}</h3>
+                {section.content?.body && <div class="pricing-card-body editable-body prose" contenteditable="true" data-field="body" set:html={section.content.body} style="flex-grow: 1; margin-bottom: 1.5rem;" />}
+                {section.content?.cta_url && section.content?.cta_text && (
+                  <div class="editable-cta" style="margin-top: auto; display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start;">
+                    <span contenteditable="true" data-field="cta_text" class="btn-primary">{section.content.cta_text}</span>
+                    <input type="text" class="cta-url-input" data-field="cta_url" value={section.content.cta_url} />
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </>
+    ) : (
+      <div id="content" class="sections-wrapper">
+        {sections && sections.filter(s => !['hero', 'gallery', 'faq', 'service_card'].includes(s.section_type)).map((section, index) => (
+          <section 
+            id={section.heading ? 'preturi-' + section.heading.replace('Prețuri ', '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') : undefined}
+            class={`content-section ${index % 2 === 0 ? 'bg-light' : 'bg-white'} editable-section`} 
+            data-section-id={section.id}
+          >
+            <div class="container section-grid">
+              <div class="section-text">
+                <div class="section-label">⚙️ Editare Secțiune: {section.section_type}</div>
+                {section.heading && section.heading.trim() !== '' && (
+                  <h2 class="section-heading editable-h2" contenteditable="true" data-field="heading">{section.heading}</h2>
+                )}
+                
+                {section.content?.subheading && section.content.subheading.trim() !== '' && (
+                  <h3 class="section-subheading editable-h3" contenteditable="true" data-field="subheading">{section.content.subheading}</h3>
+                )}
+                
+                {section.content?.body && section.content.body.trim() !== '' && (
+                  <div class="section-body editable-body" contenteditable="true" data-field="body" set:html={section.content.body} />
+                )}
+                
+                {section.content?.cta_text && section.content?.cta_url && section.content.cta_text.trim() !== '' && (
+                  <div class="editable-cta">
+                    <span contenteditable="true" data-field="cta_text" class="btn-primary" style="display:inline-block">{section.content.cta_text}</span>
+                    <input type="text" class="cta-url-input" data-field="cta_url" value={section.content.cta_url} />
+                  </div>
+                )}
+              </div>
+              {/* Visual Placeholder for layout balance */}
+              {section.content?.image_url && section.content.image_url.trim() !== '' && (
+                <div class="section-image-placeholder">
+                  <img src={section.content.image_url} alt="" onerror="this.parentElement.style.display='none'" loading="lazy" />
+                </div>
+              )}
+            </div>
+          </section>
+        ))}
+      </div>
+    )}
+
+    {/* GALLERY SECTION VISUAL */}
+    {sections && sections.some(s => s.section_type === 'gallery') && gallery && gallery.some(img => img.url && img.url.trim() !== '') && (
+      <section class="gallery-section bg-light">
+        <div class="container">
+          <h2 class="section-heading text-center">Galerie Foto</h2>
+          <div class="gallery-grid">
+            {gallery.filter(img => img.url && img.url.trim() !== '').map(img => (
+              <figure class="gallery-item">
+                <img src={img.url} alt={img.alt_text || 'Galerie Kassia'} loading="lazy" />
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {/* Render FAQs Visually so they can be edited */}

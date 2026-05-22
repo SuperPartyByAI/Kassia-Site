@@ -1,0 +1,63 @@
+kassia_pages total: 169
+kassia_internal_links total: 913
+kassia_seo_map total: 169
+published pages: 0
+index pages: 0
+include_in_sitemap=true: 0
+
+kassia_page_sections sample: {
+  "id": "8f2674c6-5126-43fa-af5f-6bef19054fad",
+  "page_id": "9bc61400-1ffe-4085-8454-0b2658e9dea3",
+  "section_type": "hero",
+  "heading": null,
+  "content": {},
+  "order_index": 1,
+  "created_at": "2026-05-19T16:00:31.783813+00:00",
+  "updated_at": "2026-05-19T16:00:31.783813+00:00"
+}
+
+kassia_pages sample: {
+  "id": "7d03a4b6-2c13-4130-bf66-305c7586b770",
+  "slug": "preturi-decoratiuni-baloane",
+  "path": "/preturi-decoratiuni-baloane/",
+  "page_type": "support",
+  "status": "draft",
+  "index_status": "noindex",
+  "include_in_sitemap": false,
+  "title": "Preturi Decoratiuni Baloane",
+  "h1": "Preturi Decoratiuni Baloane",
+  "meta_title": "Preturi Decoratiuni Baloane - Kassia",
+  "meta_description": "",
+  "canonical_url": null,
+  "parent_page_id": "9bc61400-1ffe-4085-8454-0b2658e9dea3",
+  "service_type": null,
+  "event_type": null,
+  "location_type": null,
+  "city": null,
+  "sector": null,
+  "neighborhood": null,
+  "priority": 0.5,
+  "created_at": "2026-05-19T16:00:40.414685+00:00",
+  "updated_at": "2026-05-20T06:17:38.283616+00:00",
+  "published_at": null
+}
+
+kassia_faqs sample: {
+  "id": "d3677490-c790-41f8-bcf9-e39c73a3c6ab",
+  "page_id": "9bc61400-1ffe-4085-8454-0b2658e9dea3",
+  "question": "Draft FAQ 1 for home",
+  "answer": "Placeholder",
+  "order_index": 1,
+  "created_at": "2026-05-19T16:00:33.413992+00:00",
+  "updated_at": "2026-05-19T16:00:33.413992+00:00"
+}
+
+kassia_gallery_items sample: {
+  "id": "c28e3d17-aebc-4303-b3ef-f2fabd5b5d35",
+  "page_id": "9bc61400-1ffe-4085-8454-0b2658e9dea3",
+  "url": "",
+  "alt_text": "",
+  "order_index": 1,
+  "created_at": "2026-05-19T16:00:34.190836+00:00",
+  "updated_at": "2026-05-19T16:00:34.190836+00:00"
+}

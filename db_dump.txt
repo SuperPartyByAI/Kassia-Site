@@ -1,0 +1,221 @@
+[dotenv@17.3.1] injecting env (2) from .env.local -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[
+  { path: '/preturi-decoratiuni-baloane/', status: 'published' },
+  { path: '/portofoliu-evenimente/', status: 'published' },
+  { path: '/termeni-si-conditii/', status: 'published' },
+  { path: '/blog/', status: 'published' },
+  { path: '/politica-cookies/', status: 'published' },
+  { path: '/contact/', status: 'published' },
+  {
+    path: '/decoratiuni-baloane-petrecere-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-deschidere-magazin-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-scoala-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-gender-reveal-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-halloween-bucuresti/',
+    status: 'published'
+  },
+  { path: '/decoratiuni-baloane-bucuresti/', status: 'published' },
+  {
+    path: '/decoratiuni-baloane-nunta-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-botez-bucuresti/',
+    status: 'published'
+  },
+  { path: '/baloane-heliu-bucuresti/', status: 'published' },
+  { path: '/panou-foto-baloane-bucuresti/', status: 'published' },
+  { path: '/recenzii/', status: 'published' },
+  {
+    path: '/decoratiuni-baloane-turta-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-8-martie-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-cununie-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-majorat-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-aniversare-copii-bucuresti/',
+    status: 'published'
+  },
+  { path: '/', status: 'published' },
+  {
+    path: '/decoratiuni-baloane-corporate-bucuresti/',
+    status: 'published'
+  },
+  { path: '/intrebari-frecvente/', status: 'published' },
+  { path: '/arcada-baloane-bucuresti/', status: 'published' },
+  { path: '/decoratiuni-baloane-piata-sudului/', status: 'published' },
+  { path: '/aranjamente-baloane-bucuresti/', status: 'published' },
+  { path: '/buchete-baloane-bucuresti/', status: 'published' },
+  { path: '/baloane-personalizate-bucuresti/', status: 'published' },
+  { path: '/baloane-cifre-litere-bucuresti/', status: 'published' },
+  { path: '/ghirlande-baloane-bucuresti/', status: 'published' },
+  { path: '/stalpi-baloane-bucuresti/', status: 'published' },
+  { path: '/perete-baloane-bucuresti/', status: 'published' },
+  { path: '/livrare-baloane-bucuresti/', status: 'published' },
+  { path: '/decoratiuni-baloane-mot-bucuresti/', status: 'published' },
+  {
+    path: '/decoratiuni-baloane-baby-shower-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-revelion-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-absolvire-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-aparatorii-patriei/',
+    status: 'published'
+  },
+  { path: '/decoratiuni-baloane-sector-4/', status: 'published' },
+  { path: '/decoratiuni-baloane-sector-5/', status: 'published' },
+  { path: '/decoratiuni-baloane-sector-6/', status: 'published' },
+  { path: '/decoratiuni-baloane-aviatiei/', status: 'published' },
+  { path: '/decoratiuni-baloane-baneasa/', status: 'published' },
+  { path: '/decoratiuni-baloane-domenii/', status: 'published' },
+  {
+    path: '/decoratiuni-baloane-deschidere-restaurant-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-showroom-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-gradinita-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-craciun-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-paste-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-1-iunie-bucuresti/',
+    status: 'published'
+  },
+  { path: '/decoratiuni-baloane-sector-1/', status: 'published' },
+  { path: '/decoratiuni-baloane-herastrau/', status: 'published' },
+  { path: '/decoratiuni-baloane-victoriei/', status: 'published' },
+  { path: '/decoratiuni-baloane-colentina/', status: 'published' },
+  { path: '/decoratiuni-baloane-obor/', status: 'published' },
+  { path: '/decoratiuni-baloane-tei/', status: 'published' },
+  { path: '/decoratiuni-baloane-giulesti/', status: 'published' },
+  { path: '/decoratiuni-baloane-tineretului/', status: 'published' },
+  { path: '/decoratiuni-baloane-tunari/', status: 'published' },
+  { path: '/decoratiuni-baloane-mogosoaia/', status: 'published' },
+  { path: '/decoratiuni-baloane-chiajna/', status: 'published' },
+  { path: '/decoratiuni-baloane-cernica/', status: 'published' },
+  {
+    path: '/decoratiuni-baloane-stefanestii-de-jos/',
+    status: 'published'
+  },
+  { path: '/decoratiuni-baloane-clinceni/', status: 'published' },
+  {
+    path: '/decoratiuni-baloane-dragomiresti-vale/',
+    status: 'published'
+  },
+  { path: '/decoratiuni-baloane-jilava/', status: 'published' },
+  { path: '/arcada-baloane-botez-bucuresti/', status: 'published' },
+  { path: '/panou-foto-baloane-botez-bucuresti/', status: 'published' },
+  {
+    path: '/blog/cat-costa-un-decor-de-baloane-pentru-nunta/',
+    status: 'published'
+  },
+  {
+    path: '/blog/ce-include-un-pachet-decor-baloane/',
+    status: 'published'
+  },
+  {
+    path: '/blog/cum-alegi-pachetul-de-decoratiuni-baloane/',
+    status: 'published'
+  },
+  { path: '/blog/cum-alegi-arcada-de-baloane/', status: 'published' },
+  {
+    path: '/blog/arcada-baloane-organica-sau-clasica/',
+    status: 'published'
+  },
+  {
+    path: '/blog/baloane-personalizate-pentru-evenimente/',
+    status: 'published'
+  },
+  {
+    path: '/blog/ce-dimensiune-trebuie-sa-aiba-o-arcada-de-baloane/',
+    status: 'published'
+  },
+  { path: '/despre-noi/', status: 'published' },
+  {
+    path: '/blog/panou-foto-cu-baloane-idei-si-recomandari/',
+    status: 'published'
+  },
+  {
+    path: '/blog/foto-corner-cu-baloane-pentru-evenimente/',
+    status: 'published'
+  },
+  {
+    path: '/blog/buchete-baloane-cand-se-potrivesc/',
+    status: 'published'
+  },
+  { path: '/blog/idei-decor-baloane-majorat/', status: 'published' },
+  {
+    path: '/blog/idei-decor-baloane-aniversare-adulti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-stefan-cel-mare/',
+    status: 'published'
+  },
+  { path: '/decoratiuni-baloane-dristor/', status: 'published' },
+  {
+    path: '/buchete-baloane-aniversare-bucuresti/',
+    status: 'published'
+  },
+  {
+    path: '/decoratiuni-baloane-roz-auriu-bucuresti/',
+    status: 'published'
+  },
+  { path: '/blog/cat-costa-baloanele-cu-heliu/', status: 'published' },
+  {
+    path: '/blog/cat-costa-un-panou-foto-cu-baloane/',
+    status: 'published'
+  },
+  { path: '/decoratiuni-baloane-titan/', status: 'published' },
+  { path: '/decoratiuni-baloane-vitan/', status: 'published' },
+  { path: '/decoratiuni-baloane-unirii/', status: 'published' },
+  { path: '/decoratiuni-baloane-dudesti/', status: 'published' },
+  { path: '/decoratiuni-baloane-berceni/', status: 'published' },
+  { path: '/decoratiuni-baloane-oltenitei/', status: 'published' },
+  { path: '/decoratiuni-baloane-rahova/', status: 'published' },
+  { path: '/decoratiuni-baloane-13-septembrie/', status: 'published' },
+  { path: '/decoratiuni-baloane-ferentari/', status: 'published' },
+  { path: '/decoratiuni-baloane-sebastian/', status: 'published' },
+  { path: '/decoratiuni-baloane-sector-2/', status: 'published' },
+  ... 69 more items
+]

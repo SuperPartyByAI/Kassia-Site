@@ -1,0 +1,7 @@
+import { createClient } from '@supabase/supabase-js';
+import dotenv from 'dotenv';
+dotenv.config({ path: '.env.local' });
+const supabase = createClient(process.env.PUBLIC_SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY);
+const { data, error } = await supabase.from('kassia_page_sections').select('section_type').limit(1000);
+const types = new Set(data?.map(d => d.section_type));
+console.log(Array.from(types));

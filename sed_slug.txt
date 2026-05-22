@@ -1,0 +1,121 @@
+  });
+}
+
+const ogImage = validImages.length > 0 ? validImages[0].url : undefined;
+---
+
+<Layout title={page.meta_title} description={page.meta_description} canonical={canonical} robots={robots} schemas={schemas} ogImage={ogImage}>
+  <div class="kassia-premium-page">
+    
+    {/* HERO SECTION */}
+    {(() => {
+      const heroSec = sections?.find(s => s.section_type === 'hero');
+      const hasBody = heroSec?.content?.body && heroSec.content.body.trim() !== '';
+      return (
+        <header class="hero-section">
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <h1 class="page-title">{page.h1}</h1>
+            {hasBody ? (
+              <>
+                <div class="hero-subtitle" set:html={heroSec.content.body} />
+                {heroSec.content?.cta_text && heroSec.content?.cta_url && (
+                  <a href={heroSec.content.cta_url} class="btn-primary" style="margin-top:2rem; display:inline-block;">
+                    {heroSec.content.cta_text}
+                  </a>
+                )}
+              </>
+            ) : (
+              <>
+                {page.meta_description && <p class="hero-subtitle">{page.meta_description}</p>}
+              </>
+            )}
+          </div>
+        </header>
+      );
+    })()}
+
+    {/* SERVICE CARDS GRID */}
+    {sections && sections.filter(s => s.section_type === 'service_card').length > 0 && (
+      <section class="service-cards-section bg-white">
+        <div class="container">
+          <h2 class="section-heading text-center">Alege Serviciul Dorit</h2>
+          <div class="service-cards-grid">
+            {sections.filter(s => s.section_type === 'service_card').map((card) => (
+              <a href={card.content?.cta_url || '#'} class="service-card-link">
+                <div class="service-card">
+                  <div class="service-card-image">
+                    {card.content?.image_url && card.content.image_url.trim() !== '' && (
+                      <img src={card.content.image_url} alt="" onerror="this.style.display='none'" loading="lazy" />
+                    )}
+                    <div class="service-card-overlay"></div>
+                  </div>
+                  <div class="service-card-content">
+                    <h3 class="service-card-title">{card.heading}</h3>
+                    {card.content?.subheading && <p class="service-card-subtitle">{card.content.subheading}</p>}
+                    <span class="service-card-cta">{card.content?.cta_text || 'Vezi Detalii'} &rarr;</span>
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {/* SECTIONS LOOP */}
+    {page.slug === 'preturi-decoratiuni-baloane' ? (
+      <>
+        {sections && sections.filter(s => s.heading === 'Cum se calculează prețul unui decor cu baloane?').map(section => (
+          <section class="content-section bg-light" id="cum-se-calculeaza">
+            <div class="container section-grid" style="grid-template-columns: 1fr; max-width: 800px; text-align: center;">
+              <div class="section-text">
+                <h2 class="section-heading">{section.heading}</h2>
+                {section.content?.body && <div class="section-body prose" set:html={section.content.body} />}
+              </div>
+            </div>
+          </section>
+        ))}
+        <div id="content" class="container" style="padding: 4rem 1rem;">
+          <div class="pricing-details-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+            {sections && sections.filter(s => !['hero', 'gallery', 'faq', 'service_card'].includes(s.section_type) && s.heading !== 'Cum se calculează prețul unui decor cu baloane?').map((section) => (
+              <div class="pricing-detail-card" id={section.heading ? 'preturi-' + section.heading.replace('Prețuri ', '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') : undefined} style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; display: flex; flex-direction: column;">
+                <h3 class="pricing-card-title" style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--primary-dark);">{section.heading}</h3>
+                {section.content?.body && <div class="pricing-card-body prose" set:html={section.content.body} style="flex-grow: 1; margin-bottom: 1.5rem;" />}
+                {section.content?.cta_url && section.content?.cta_text && (
+                  <a href={section.content.cta_url} class="btn-primary" style="align-self: flex-start; margin-top: auto;">{section.content.cta_text}</a>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </>
+    ) : (
+      <div id="content" class="sections-wrapper">
+        {sections && sections.filter(s => !['hero', 'gallery', 'faq', 'service_card'].includes(s.section_type)).map((section, index) => (
+          <section 
+            id={section.heading ? 'preturi-' + section.heading.replace('Prețuri ', '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') : undefined}
+            class={`content-section ${index % 2 === 0 ? 'bg-light' : 'bg-white'}`}
+          >
+            <div class="container section-grid">
+              <div class="section-text">
+                {section.heading && <h2 class="section-heading">{section.heading}</h2>}
+                {section.content?.subheading && <h3 class="section-subheading">{section.content.subheading}</h3>}
+                {section.content?.body && <div class="section-body" set:html={section.content.body} />}
+                {section.content?.cta_text && section.content?.cta_url && (
+                  <a href={section.content.cta_url} class="btn-primary">{section.content.cta_text}</a>
+                )}
+              </div>
+              {/* Image render */}
+              {section.content?.image_url && section.content.image_url.trim() !== '' && (
+                <div class="section-image-placeholder">
+                  <img src={section.content.image_url} alt="" onerror="this.parentElement.style.display='none'" loading="lazy" />
+                </div>
+              )}
+            </div>
+          </section>
+        ))}
+      </div>
+    )}
+
+    {/* GALLERY SECTION */}

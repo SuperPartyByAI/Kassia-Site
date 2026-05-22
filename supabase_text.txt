@@ -1,0 +1,202 @@
+superpartybyai@gmail.com's Org
+PRO
+Superparty
+main
+PRODUCTION
+Connect
+Feedback
+
+Search...
+
+⌘K
+Help
+Advisor Center
+SQL Editor
+AI Assistant
+Project Overview
+Table Editor
+SQL Editor
+Database
+Authentication
+Storage
+Edge Functions
+Realtime
+Advisors
+Observability
+Logs
+Integrations
+Project Settings
+SQL Editor
+Search queries
+SHARED
+FAVORITES
+PRIVATE (251)
+s la liber. Se recomanda sosete anti-derapante.',
+Sitemap, robots, canonical, and publish controls
+Kassia SEO Pages Schema & SEO Metadata Tables
+Update Zouka's Play Content Blocks
+Upsert practical info for a page
+Upsert Page Practical Info
+Update Page Practical Info
+Fetch All Pages
+List Page Practical Info Columns
+Fetch Page Practical Info as JSON
+Fetch Page Practical Info by Page IDs
+List Public Schema Tables
+Add template type to pages
+Page Practical Info Trigger & Storage
+Fetch Sample Content Requirement
+Publishing Guard & Page Content Blocks
+Find Pages Table Location
+Inspect Pages Table Columns
+Enforce Publish Requirements on Page Updates
+Publishing Guard for Page Content & Quality Checks
+Upsert Home Page and Refresh SEO Data
+Upsert Home Page with SEO Content Rebuild
+Get Page Practical Info Columns
+Row Counts by Table
+SEO & Content Publish Control Schema
+Dev Reset: Drop SEO Schema Objects
+Find Public Tables Matching Zouka
+Search AI Client Profiles by Keyword
+Promote eligible admins to agents
+Profiles Trigger Definitions
+Refine RLS Policies for Employee Profiles and Access Control
+List Row-Level Security Policies
+Content and Redirect Counts
+Count Records in masajtop_content
+Find Tables Matching masajtop
+Content, Redirects, and Media Counts
+Update admin roles in profiles
+Auto-update Timestamp Trigger
+Inbox Conversation Summaries
+Untitled query
+Add Custom Name and Category to Conversations
+Count Profiles
+Fetch Chat Messages by Ticket
+Search Chat Messages by AI Phrase
+Add External IDs with Uniqueness Constraints
+SEO Profiles and Products Schema
+Recalculate Seller SEO Registry Entry
+Recalculate Seller SEO Registry
+Request Seller SEO Registry Recalculation
+Recalculate Seller SEO Registry
+Seller SEO Sync Trigger
+Sync Seller SEO Registry Pages
+SEO Registry Templates Store
+Recalculate Seller SEO Registry (Storefront)
+Trigger Filtering for SEO Events and Actions
+Retrieve Function Definitions by Name
+Search AEAD Decrypt Functions
+Find SEO-Related Indexes
+List Public RLS Policies for SEO Tables
+Find SEO-Related Tables in Public Schema
+Find Public Functions Matching SEO
+Show sync_seller_seo_pages Function Definition
+Inspect SEO Pages Columns
+Sync seller SEO pages
+Sync Seller SEO Landing and Category Pages
+Upsert Seller Category SEO Template
+Seller SEO Page Sync Function
+Public Schema SEO & RLS Checks
+Validate Public Views, Tables, Function Privileges, and RLS Policies
+Schema, Table, Function Privileges, and RLS Policies Checks
+Manage SEO View and Enable RLS
+SEO Page Templates and Indexing Sync
+Handle new user profile creation
+Auto-create User Profiles with RLS Policies
+Seller SEO Pages Catalog
+Seller SEO Pages Management
+Fetch Seller SEO Pages
+Fetch One Seller Record
+SEO page generation & indexing automation
+Seller SEO Pages Sync & Indexing Schema
+Seller SEO Pages Management
+SEO Page Templates Schema Setup
+Seller Content & Offer Mapping
+Add Indexability Flag to Sellers
+Seller Slug Normalization and Redirects
+Set Search Path for Crypto Extension Functions
+RLS and storage access policies setup
+Seller Row Access Policies
+Row-Level Security Policies for Core Tables
+Add Seller Profile Fields
+Add seller profile fields
+Find Sellers by Name
+Add Employee Assignment Status
+Company–Freelancer Employee Requests
+Add Active Modules Column
+Storefront Media Read Access Policy
+AI Shadow Replies and Collaborator Profile Extensions
+Shadow Replies and Collaborator Profile Rules
+Add Profile Blocks and Portfolio Status Columns
+Enable RLS on Public Tables
+Enable RLS on Public Tables
+Load More
+COMMUNITY
+Templates
+Quickstarts
+View running queries
+Collapse sidebar
+Publishing Guard for Page Content & Quality Checks
+Enforce Publish Requirements on Page Updates
+Inspect Pages Table Columns
+SEO & Content Publish Control Schema
+Find Pages Table Location
+Publishing Guard & Page Content Blocks
+Fetch Sample Content Requirement
+Get Page Practical Info Columns
+Add template type to pages
+Page Practical Info Trigger & Storage
+Upsert practical info for a page
+Update Zouka's Play Content Blocks
+List Public Schema Tables
+Kassia SEO Pages Schema & SEO Metadata Tables
+Sitemap, robots, canonical, and publish controls
+23444
+23445
+23446
+23447
+23448
+23449
+23450
+23451
+23452
+23453
+        IF NOT EXISTS (SELECT 1 FROM kassia_internal_links WHERE source_page_id = v_src AND target_page_id = v_tgt AND anchor_text = 
+        'baloane heliu majorat') THEN
+            INSERT INTO kassia_internal_links (source_page_id, target_page_id, anchor_text)
+            VALUES (v_src, v_tgt, 'baloane heliu majorat');
+        END IF;
+    END IF;
+END $$;
+COMMIT;
+14386
+23443
+23444
+BEGIN
+    IF v_src IS NOT NULL AND v_tgt IS NOT NULL THEN
+        IF NOT EXISTS (SELECT 1 FROM kassia_internal_links WHERE source_page_id = v_src AND target_page_id = v_tgt AND anchor_text = 
+Results
+Explain
+Chart
+Export
+Retry
+Source
+Primary Database
+Role
+postgres
+Run
+⌘↵
+
+Error: Query is too large to be run via the SQL Editor
+
+Run this query by
+connecting to your database directly
+.
+
+Debug with Assistant
+
+0 row
+
+Kassia SEO Pages Schema & SEO Metadata Tables | SQL Editor | Superparty | superpartybyai@gmail.com's Org | Supabase
